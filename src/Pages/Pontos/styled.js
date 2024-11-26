@@ -20,7 +20,8 @@ justify-content: center;
 gap: 20px;
 
 .titulo{
-    margin-top: 20%;
+  font-size: 1.5rem;
+  margin-top: 20px;
 }
 
 

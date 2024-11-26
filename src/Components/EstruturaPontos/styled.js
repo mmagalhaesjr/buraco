@@ -5,6 +5,7 @@ export const StyledEstruturapontos = styled.div`
     max-width: 600px;
     height: fit-content;
     background-color: ${(prop) => prop.cor === "vulneravel" ? '#ff0606ff' : '#f8f8f895'};
+    padding-bottom: 5px;
    
 
     display: flex;
@@ -27,6 +28,7 @@ export const StyledEstruturapontos = styled.div`
         align-items: center;
         justify-content: center;
         gap: 5px;
+      
     }
 
     h3 {
@@ -44,6 +46,7 @@ export const StyledEstruturapontos = styled.div`
         border: none;
         outline: none;
         padding-left: 10px;
+
     }
 
     input[type="text"] {

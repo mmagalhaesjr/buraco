@@ -14,6 +14,7 @@ export default function Pontos() {
 
             <Header />
 
+            <h1 className="titulo">Controle de pontos</h1>
 
             {dadosObjetos.equipes.map((obj,index) => (
                 <EstruturaPontos
