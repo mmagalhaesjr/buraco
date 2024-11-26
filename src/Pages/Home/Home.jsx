@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 export default function Home() {
     const [numeroEquipes, setNumeroEquipes] = useState(2);
-    const [pontuacaoMaxima, setPontuacaoMaxima] = useState('');
+    const [pontuacaoMaxima, setPontuacaoMaxima] = useState(3000);
     const [tipoJogo, setTipoJogo] = useState('200');
 
     const navigate = useNavigate();

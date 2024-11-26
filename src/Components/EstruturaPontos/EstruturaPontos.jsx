@@ -76,7 +76,7 @@ export default function EstruturaPontos(prop) {
 
             <form className="caixaInfo" onSubmit={somar}>
                 <div className="coluna">
-                    <h2>Pontos de jogos:</h2>
+                    <h2>Pontos de canastras:</h2>
                     <input 
                         type="text" 
                         value={pontosJogo} 
