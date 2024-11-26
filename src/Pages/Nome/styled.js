@@ -16,7 +16,10 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 
-
+h1{
+    text-align: center;
+    margin-top: 100px;
+}
 
 form{
     width: 90%;
@@ -96,7 +99,7 @@ form{
     width: 100%;
 }
 h1{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 }
 

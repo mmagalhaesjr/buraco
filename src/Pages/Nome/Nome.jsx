@@ -41,7 +41,7 @@ export default function Nome() {
         <StyledNome>
             <Header />
 
-            <h1>NOME DOS <br /> JOGADORES</h1>
+            <h1>NOME DOS JOGADORES</h1>
 
             <form onSubmit={atualizarObjetoLocalStorage}>
                 {equipes.map((equipe, index) => (
