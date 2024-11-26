@@ -29,7 +29,7 @@ form{
     justify-content: center;
 }
 h1{
-   
+    font-size: 3rem;
 }
 h2{
     font-size: 1.5rem;
@@ -96,6 +96,9 @@ button{
 width: 100%;
 form{
     width: 100%;
+}
+h1{
+    font-size: 2rem;
 }
 }
 

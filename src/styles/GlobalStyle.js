@@ -79,7 +79,6 @@ const GlobalStyle = createGlobalStyle`
 h1{
     font-family: "Play", sans-serif;
     font-weight: bold;
-    font-size: 3rem;
     color: rgb(9, 46, 3)
 }
 h2{
