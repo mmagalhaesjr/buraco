@@ -116,7 +116,7 @@ export default function EstruturaPontos(prop) {
                 </div>
                 <div className="coluna">
                     <h2>Total Acumulado:</h2>
-                    <h1>{totalPontos}</h1> 
+                    <p>{totalPontos}</p> 
                 </div>
             </form>
         </StyledEstruturapontos>

@@ -30,6 +30,10 @@ export const StyledEstruturapontos = styled.div`
         gap: 5px;
       
     }
+    p{
+        font-size: 2rem;
+        font-weight: bold;
+    }
 
     h3 {
         font-weight: bold;
