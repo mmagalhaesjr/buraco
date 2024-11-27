@@ -28,7 +28,7 @@ export const StyledEstruturapontos = styled.div`
         align-items: center;
         justify-content: center;
         gap: 5px;
-      
+    
     }
     p{
         font-size: 2rem;

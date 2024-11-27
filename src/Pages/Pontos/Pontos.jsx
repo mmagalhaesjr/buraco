@@ -7,7 +7,7 @@ export default function Pontos() {
     const pegarDadosLocalStorage = localStorage.getItem("dadosConfiguracoes");
     const dadosObjetos = JSON.parse(pegarDadosLocalStorage);
 
-    console.log(dadosObjetos.equipes)
+
 
     return (
         <StyledPontos>
@@ -21,6 +21,7 @@ export default function Pontos() {
                     key={index}
                     nome1={obj.jogador1}
                     nome2={obj.jogador2}
+
                 />
             ))}
 

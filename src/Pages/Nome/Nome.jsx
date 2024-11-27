@@ -7,6 +7,8 @@ export default function Nome() {
     const pegarDadosLocalStorage = localStorage.getItem("dadosConfiguracoes");
     const dadosObjetos = JSON.parse(pegarDadosLocalStorage);
 
+    
+
     const numeroEquipes = dadosObjetos?.numeroEquipes || 0;
 
     // Inicializa o estado com base no número de equipes

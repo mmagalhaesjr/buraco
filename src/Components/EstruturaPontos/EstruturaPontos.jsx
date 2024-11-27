@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { StyledEstruturapontos } from "./styled";
 import audio from '../../assets/vul.mp3'
+import { useNavigate } from "react-router-dom";
 
 export default function EstruturaPontos(prop) {
     const [pontosJogo, setPontosJogo] = useState('');
@@ -10,6 +11,7 @@ export default function EstruturaPontos(prop) {
     const [totalPontos, setTotalPontos] = useState(0);
     const [cor, setCor] = useState(undefined);
     const audioRef = useRef(null); 
+    const navigate = useNavigate(); 
 
     // Atualizar o localStorage sempre que o totalPontos mudar
     useEffect(() => {
@@ -28,7 +30,12 @@ export default function EstruturaPontos(prop) {
                 audioRef.current.play(); 
             }
         }
+
     }, [totalPontos, pontuacao]);
+
+    if(totalPontos >= pontuacao.pontuacaoMaxima){
+        navigate('/video1')
+    }
 
     const inputPontosJogo = (event) => {
         setPontosJogo(Number(event.target.value));
