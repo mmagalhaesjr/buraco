@@ -22,6 +22,7 @@ export default function EstruturaPontos(prop) {
     const PontuacaomaximaLocalStorage = localStorage.getItem("dadosConfiguracoes");
     const pontuacao = PontuacaomaximaLocalStorage ? JSON.parse(PontuacaomaximaLocalStorage) : null;
 
+
     // UseEffect para verificar se a pontuação atingiu a vulnerabilidade
     useEffect(() => {
         if (pontuacao && pontuacao.pontuacaoMaxima / 2 <= totalPontos) {

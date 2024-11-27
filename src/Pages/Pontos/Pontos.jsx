@@ -7,6 +7,7 @@ export default function Pontos() {
     const pegarDadosLocalStorage = localStorage.getItem("dadosConfiguracoes");
     const dadosObjetos = JSON.parse(pegarDadosLocalStorage);
 
+    console.log(dadosObjetos)
 
 
     return (

@@ -9,8 +9,6 @@ export default function Video2() {
     const pegarDadosLocalStorage = localStorage.getItem("dadosConfiguracoes");
     const dadosObjetos = pegarDadosLocalStorage ? JSON.parse(pegarDadosLocalStorage) : null;
 
-    console.log(dadosObjetos?.equipes);
-
     return (
         <Texto>
             {dadosObjetos.equipes.map((obj, index) => (

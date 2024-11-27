@@ -35,6 +35,8 @@ export default function Nome() {
             equipes, // Adiciona os dados das equipes ao objeto existente
         };
 
+       
+
         localStorage.setItem("dadosConfiguracoes", JSON.stringify(novosDados));
         // console.log("Dados atualizados no localStorage:", novosDados);
     };
